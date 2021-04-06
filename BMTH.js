@@ -1,8 +1,8 @@
-function random (minimo, maximo, decimales) {
-    var precision = Math.pow(10, decimales);
-    minimo = minimo*precision;
-    maximo = maximo*precision;
-    return Math.floor(Math.random()*(maximo-minimo+1) + minimo) / precision;
+function random (min, max, decimals) {
+    var precision = Math.pow(10, decimals);
+    min = min*precision;
+    max = max*precision;
+    return Math.floor(Math.random()*(max-min+1) + min) / precision;
 }
 
 document.getElementById("Peak1").style.animationDelay = random(1, 3, 2).toString() + "s"
