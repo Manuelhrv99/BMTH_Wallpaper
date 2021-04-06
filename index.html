@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMTH</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <svg version="1.1" id="BMTH_Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+
+        <filter id="Glow">
+            <fegaussianblur class="blur" result="coloredBlur" stddeviation="8"></fegaussianblur>
+            <femerge>
+                <femergenode in="coloredBlur"></femergenode>
+                <femergenode in="coloredBlur"></femergenode>
+                <femergenode in="coloredBlur"></femergenode>
+                <femergenode in="SourceGraphic"></femergenode>
+            </femerge>
+        </filter>
+
+        <polygon id="Peak1" class="st0" points="631.79,368.65 868.08,578.52 882.74,571.22 721.66,429.93 "/>
+        <polygon id="Peak2" class="st1" points="631.79,711.8 868.21,502.95 882.51,509.59 723.7,650.52 "/>
+        <polygon id="Peak3" class="st0" points="960.47,533.76 960.47,548.4 721.66,429.93 631.79,368.65 "/>
+        <path id="Peak4" class="st0" d="M959.98,148.03l-83.72,343.42l12.45,6.25l71.76-292.46v-57.15C960.47,147.8,960.05,147.75,959.98,148.03z"/>
+        <polygon id="Peak5" class="st0" points="944.44,540.45 723.7,650.52 631.79,711.8 960.47,548.4 "/>
+        <path id="Peak6" class="st0" d="M960.47,877.25l-72.05-293.03l-14.52,7.22l86.07,340.55c0.07,0.29,0.49,0.23,0.49-0.06V877.25z"/>
+        <path id="Peak7" class="st0" d="M960.47,205.25l71.56,292.46l13.09-6.59l-84.15-343.09c-0.07-0.29-0.49-0.24-0.49,0.06V205.25z"/>
+        <polygon id="Peak8" class="st0" points="1197.57,652.06 1288.21,711.8 960.47,548.4 976.36,540.45 "/>
+        <polygon id="Peak9" class="st0" points="1196.3,430.44 1037.66,571.37 1053.86,579.54 1288.21,368.65 "/>
+        <polygon id="Peak10" class="st1" points="1037.87,510.02 1051.53,503.13 1288.21,711.8 1197.57,652.06 "/>
+        <path id="Peak11" class="st0" d="M960.96,931.93l84.15-341.33l-12.8-6.38l-71.84,293.03v54.62C960.47,932.16,960.89,932.22,960.96,931.93z"/>
+        <polygon id="Peak12" class="st0" points="960.47,533.76 1288.21,368.65 1196.3,430.44 960.47,548.4 "/>
+
+    </svg>
+
+    <div id="Shadow"></div>
+
+    <script src="BMTH.js"></script>
+</body>
+</html>
