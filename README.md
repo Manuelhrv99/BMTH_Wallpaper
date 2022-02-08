@@ -1,4 +1,4 @@
-# BMTH_Wallpaper
+# BMTH Wallpaper HTML animation
 
 ## Example of Bring Me The Horizon Band animated NEON wallpaper using only HTML5, JavaScript and CSS.
 
